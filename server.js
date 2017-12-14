@@ -14,7 +14,7 @@ const port = process.env.port || 3001
 app.set('port',port)
 
 const server = http.createServer(app);
-server.listen(port, () => console.log(`Listening on ${ port }`))
+server.listen(port, () => console.log(`Listening on : ${ port }`))
 // express()
 //   .use(express.static(path.join(__dirname, 'public')))
 //   .set('views', path.join(__dirname, 'views'))
